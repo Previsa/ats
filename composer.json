@@ -1,0 +1,25 @@
+{
+    "name": "virginiaalcantara/ats",
+    "description": "ats",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "IntegracaoApi\\": "src/IntegracaoApi/",
+            "Armazenamento\\": "src/Armazenamento/",
+            "TriagemCurriculos\\": "src/TriagemCurriculos/",
+            "Matching\\": "src/Matching/",
+            "Relatorios\\": "src/Relatorios/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Virginia Alcantara"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}

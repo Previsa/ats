@@ -1,0 +1,211 @@
+[24-Sep-2024 12:06:19 UTC] PHP Fatal error:  Uncaught Error: Class "App\Controllers\SolidesController" not found in C:\Users\virginiaalcantara\Aplicações\ats\public\index.php:14
+Stack trace:
+#0 {main}
+  thrown in C:\Users\virginiaalcantara\Aplicações\ats\public\index.php on line 14
+[24-Sep-2024 12:16:34 UTC] PHP Fatal error:  Uncaught Error: Class "App\Services\SolidesAPI" not found in C:\Users\virginiaalcantara\Aplicações\ats\src\IntegracaoSolides\Controllers\SolidesController.php:14
+Stack trace:
+#0 C:\Users\virginiaalcantara\Aplicações\ats\public\index.php(14): App\IntegracaoSolides\Controllers\SolidesController->__construct()
+#1 {main}
+  thrown in C:\Users\virginiaalcantara\Aplicações\ats\src\IntegracaoSolides\Controllers\SolidesController.php on line 14
+[24-Sep-2024 12:20:44 UTC] PHP Warning:  require_once(C:\Users\virginiaalcantara\Aplicações\ats\src\IntegracaoSolides\Models/../../config/database.php): Failed to open stream: No such file or directory in C:\Users\virginiaalcantara\Aplicações\ats\src\IntegracaoSolides\Models\SolidesModel.php on line 12
+[24-Sep-2024 12:20:44 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\virginiaalcantara\Aplicações\ats\src\IntegracaoSolides\Models/../../config/database.php' (include_path='.;C:\php\pear') in C:\Users\virginiaalcantara\Aplicações\ats\src\IntegracaoSolides\Models\SolidesModel.php:12
+Stack trace:
+#0 C:\Users\virginiaalcantara\Aplicações\ats\src\IntegracaoSolides\Controllers\SolidesController.php(15): App\IntegracaoSolides\Models\SolidesModel->__construct()
+#1 C:\Users\virginiaalcantara\Aplicações\ats\public\index.php(14): App\IntegracaoSolides\Controllers\SolidesController->__construct()
+#2 {main}
+  thrown in C:\Users\virginiaalcantara\Aplicações\ats\src\IntegracaoSolides\Models\SolidesModel.php on line 12
+[24-Sep-2024 12:25:35 UTC] PHP Warning:  Undefined variable $pdo in C:\Users\virginiaalcantara\Aplicações\ats\src\IntegracaoSolides\Models\SolidesModel.php on line 13
+[24-Sep-2024 12:25:35 UTC] PHP Warning:  Undefined array key "route" in C:\Users\virginiaalcantara\Aplicações\ats\public\index.php on line 25
+[24-Sep-2024 12:42:56 UTC] PHP Warning:  Undefined variable $pdo in C:\Users\virginiaalcantara\Aplicações\ats\src\IntegracaoSolides\Models\SolidesModel.php on line 13
+[24-Sep-2024 12:52:19 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function App\IntegracaoSolides\Models\SolidesModel::__construct(), 0 passed in C:\Users\virginiaalcantara\Aplicações\ats\src\IntegracaoSolides\Controllers\SolidesController.php on line 15 and exactly 1 expected in C:\Users\virginiaalcantara\Aplicações\ats\src\IntegracaoSolides\Models\SolidesModel.php:10
+Stack trace:
+#0 C:\Users\virginiaalcantara\Aplicações\ats\src\IntegracaoSolides\Controllers\SolidesController.php(15): App\IntegracaoSolides\Models\SolidesModel->__construct()
+#1 C:\Users\virginiaalcantara\Aplicações\ats\public\index.php(14): App\IntegracaoSolides\Controllers\SolidesController->__construct()
+#2 {main}
+  thrown in C:\Users\virginiaalcantara\Aplicações\ats\src\IntegracaoSolides\Models\SolidesModel.php on line 10
+[24-Sep-2024 12:53:40 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function App\IntegracaoSolides\Controllers\SolidesController::__construct(), 0 passed in C:\Users\virginiaalcantara\Aplicações\ats\public\index.php on line 14 and exactly 1 expected in C:\Users\virginiaalcantara\Aplicações\ats\src\IntegracaoSolides\Controllers\SolidesController.php:11
+Stack trace:
+#0 C:\Users\virginiaalcantara\Aplicações\ats\public\index.php(14): App\IntegracaoSolides\Controllers\SolidesController->__construct()
+#1 {main}
+  thrown in C:\Users\virginiaalcantara\Aplicações\ats\src\IntegracaoSolides\Controllers\SolidesController.php on line 11
+[24-Sep-2024 12:54:26 UTC] PHP Fatal error:  Uncaught Error: Class "App\IntegracaoSolides\Controllers\SolidesAPI" not found in C:\Users\virginiaalcantara\Aplicações\ats\src\IntegracaoSolides\Controllers\SolidesController.php:13
+Stack trace:
+#0 C:\Users\virginiaalcantara\Aplicações\ats\public\index.php(13): App\IntegracaoSolides\Controllers\SolidesController->__construct(Object(PDO))
+#1 {main}
+  thrown in C:\Users\virginiaalcantara\Aplicações\ats\src\IntegracaoSolides\Controllers\SolidesController.php on line 13
+[24-Sep-2024 12:59:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method App\IntegracaoSolides\Controllers\SolidesController::status() in C:\Users\virginiaalcantara\Aplicações\ats\public\index.php:28
+Stack trace:
+#0 {main}
+  thrown in C:\Users\virginiaalcantara\Aplicações\ats\public\index.php on line 28
+[24-Sep-2024 13:00:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method App\IntegracaoSolides\Services\SolidesAPI::importVagas() in C:\Users\virginiaalcantara\Aplicações\ats\src\IntegracaoSolides\Controllers\SolidesController.php:33
+Stack trace:
+#0 C:\Users\virginiaalcantara\Aplicações\ats\public\index.php(21): App\IntegracaoSolides\Controllers\SolidesController->importarVagas()
+#1 {main}
+  thrown in C:\Users\virginiaalcantara\Aplicações\ats\src\IntegracaoSolides\Controllers\SolidesController.php on line 33
+[24-Sep-2024 13:01:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method App\IntegracaoSolides\Services\SolidesAPI::importVagas() in C:\Users\virginiaalcantara\Aplicações\ats\src\IntegracaoSolides\Controllers\SolidesController.php:33
+Stack trace:
+#0 C:\Users\virginiaalcantara\Aplicações\ats\public\index.php(27): App\IntegracaoSolides\Controllers\SolidesController->importarVagas()
+#1 {main}
+  thrown in C:\Users\virginiaalcantara\Aplicações\ats\src\IntegracaoSolides\Controllers\SolidesController.php on line 33
+[24-Sep-2024 13:01:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method App\IntegracaoSolides\Controllers\SolidesController::status() in C:\Users\virginiaalcantara\Aplicações\ats\public\index.php:32
+Stack trace:
+#0 {main}
+  thrown in C:\Users\virginiaalcantara\Aplicações\ats\public\index.php on line 32
+[24-Sep-2024 13:07:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method App\IntegracaoSolides\Controllers\SolidesController::status() in C:\Users\virginiaalcantara\Aplicações\ats\public\index.php:32
+Stack trace:
+#0 {main}
+  thrown in C:\Users\virginiaalcantara\Aplicações\ats\public\index.php on line 32
+[24-Sep-2024 14:53:09 UTC] PHP Warning:  Undefined array key "id_candidato" in C:\Users\virginiaalcantara\Aplicações\ats\public\index.php on line 33
+[24-Sep-2024 16:45:15 UTC] PHP Warning:  move_uploaded_file(C:\Users\virginiaalcantara\Aplicações\ats\src\TriagemCurriculos\Controllers/../../Uploads/RFC - Athenas.pdf): Failed to open stream: No such file or directory in C:\Users\virginiaalcantara\Aplicações\ats\src\TriagemCurriculos\Controllers\CurriculoController.php on line 24
+[24-Sep-2024 16:45:15 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;C:\Users\virginiaalcantara\AppData\Local\Temp\php2B56.tmp&quot; to &quot;C:\Users\virginiaalcantara\Aplicações\ats\src\TriagemCurriculos\Controllers/../../Uploads/RFC - Athenas.pdf&quot; in C:\Users\virginiaalcantara\Aplicações\ats\src\TriagemCurriculos\Controllers\CurriculoController.php on line 24
+[24-Sep-2024 16:51:32 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_candidato' in 'field list' in C:\Users\virginiaalcantara\Aplicações\ats\src\TriagemCurriculos\Models\CurriculoModel.php:14
+Stack trace:
+#0 C:\Users\virginiaalcantara\Aplicações\ats\src\TriagemCurriculos\Models\CurriculoModel.php(14): PDO->prepare('\r\n            I...')
+#1 C:\Users\virginiaalcantara\Aplicações\ats\src\TriagemCurriculos\Controllers\CurriculoController.php(32): App\TriagemCurriculos\Models\CurriculoModel->saveCurriculo('RFC - Athenas.p...', '123')
+#2 C:\Users\virginiaalcantara\Aplicações\ats\public\index.php(34): App\TriagemCurriculos\Controllers\CurriculoController->uploadCurriculo('123')
+#3 {main}
+  thrown in C:\Users\virginiaalcantara\Aplicações\ats\src\TriagemCurriculos\Models\CurriculoModel.php on line 14
+[24-Sep-2024 17:02:03 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'nome_arquivo' in 'field list' in C:\Users\virginiaalcantara\Aplicações\ats\src\TriagemCurriculos\Models\CurriculoModel.php:14
+Stack trace:
+#0 C:\Users\virginiaalcantara\Aplicações\ats\src\TriagemCurriculos\Models\CurriculoModel.php(14): PDO->prepare('\r\n            I...')
+#1 C:\Users\virginiaalcantara\Aplicações\ats\src\TriagemCurriculos\Controllers\CurriculoController.php(32): App\TriagemCurriculos\Models\CurriculoModel->saveCurriculo('RFC - Athenas.p...', '123')
+#2 C:\Users\virginiaalcantara\Aplicações\ats\public\index.php(34): App\TriagemCurriculos\Controllers\CurriculoController->uploadCurriculo('123')
+#3 {main}
+  thrown in C:\Users\virginiaalcantara\Aplicações\ats\src\TriagemCurriculos\Models\CurriculoModel.php on line 14
+[24-Sep-2024 17:07:24 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'data_upload' in 'field list' in C:\Users\virginiaalcantara\Aplicações\ats\src\TriagemCurriculos\Models\CurriculoModel.php:14
+Stack trace:
+#0 C:\Users\virginiaalcantara\Aplicações\ats\src\TriagemCurriculos\Models\CurriculoModel.php(14): PDO->prepare('\r\n            I...')
+#1 C:\Users\virginiaalcantara\Aplicações\ats\src\TriagemCurriculos\Controllers\CurriculoController.php(32): App\TriagemCurriculos\Models\CurriculoModel->saveCurriculo('RFC - Athenas.p...', '123')
+#2 C:\Users\virginiaalcantara\Aplicações\ats\public\index.php(34): App\TriagemCurriculos\Controllers\CurriculoController->uploadCurriculo('123')
+#3 {main}
+  thrown in C:\Users\virginiaalcantara\Aplicações\ats\src\TriagemCurriculos\Models\CurriculoModel.php on line 14
+[24-Sep-2024 17:09:37 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`ats_db`.`curriculos`, CONSTRAINT `fk_id_candidato` FOREIGN KEY (`id_candidato`) REFERENCES `candidatos` (`id`) ON DELETE CASCADE) in C:\Users\virginiaalcantara\Aplicações\ats\src\TriagemCurriculos\Models\CurriculoModel.php:18
+Stack trace:
+#0 C:\Users\virginiaalcantara\Aplicações\ats\src\TriagemCurriculos\Models\CurriculoModel.php(18): PDOStatement->execute(Array)
+#1 C:\Users\virginiaalcantara\Aplicações\ats\src\TriagemCurriculos\Controllers\CurriculoController.php(32): App\TriagemCurriculos\Models\CurriculoModel->saveCurriculo('RFC - Athenas.p...', '123')
+#2 C:\Users\virginiaalcantara\Aplicações\ats\public\index.php(34): App\TriagemCurriculos\Controllers\CurriculoController->uploadCurriculo('123')
+#3 {main}
+  thrown in C:\Users\virginiaalcantara\Aplicações\ats\src\TriagemCurriculos\Models\CurriculoModel.php on line 18
+[24-Sep-2024 17:46:52 UTC] PHP Warning:  Undefined property: App\TriagemCurriculos\Controllers\CurriculoController::$db in C:\Users\virginiaalcantara\Aplicações\ats\src\TriagemCurriculos\Controllers\CurriculoController.php on line 42
+[24-Sep-2024 17:46:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\Users\virginiaalcantara\Aplicações\ats\src\TriagemCurriculos\Controllers\CurriculoController.php:42
+Stack trace:
+#0 C:\Users\virginiaalcantara\Aplicações\ats\public\index.php(61): App\TriagemCurriculos\Controllers\CurriculoController->visualizarCurriculo('1')
+#1 {main}
+  thrown in C:\Users\virginiaalcantara\Aplicações\ats\src\TriagemCurriculos\Controllers\CurriculoController.php on line 42
+[24-Sep-2024 18:26:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method App\IntegracaoSolides\Services\SolidesAPI::importCandidatos() in C:\Users\virginiaalcantara\Aplicações\ats\src\IntegracaoSolides\Controllers\SolidesController.php:56
+Stack trace:
+#0 C:\Users\virginiaalcantara\Aplicações\ats\public\index.php(32): App\IntegracaoSolides\Controllers\SolidesController->importarCandidatos()
+#1 {main}
+  thrown in C:\Users\virginiaalcantara\Aplicações\ats\src\IntegracaoSolides\Controllers\SolidesController.php on line 56
+[24-Sep-2024 19:23:17 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\Users\virginiaalcantara\Aplicações\ats\src\Matching\Models\CandidateModel.php:19
+Stack trace:
+#0 C:\Users\virginiaalcantara\Aplicações\ats\src\Matching\Models\CandidateModel.php(19): PDOStatement->execute(Array)
+#1 C:\Users\virginiaalcantara\Aplicações\ats\src\Matching\Controllers\CandidateSearchController.php(15): App\Matching\Models\CandidateModel->searchCandidates('engenheiro', 'Sao Paulo')
+#2 C:\Users\virginiaalcantara\Aplicações\ats\public\index.php(89): App\Matching\Controllers\CandidateSearchController->searchCandidates('engenheiro', 'Sao Paulo')
+#3 {main}
+  thrown in C:\Users\virginiaalcantara\Aplicações\ats\src\Matching\Models\CandidateModel.php on line 19
+[24-Sep-2024 19:32:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method App\Matching\Models\CandidateModel::getAllCandidates() in C:\Users\virginiaalcantara\Aplicações\ats\src\Matching\Controllers\MatchingController.php:23
+Stack trace:
+#0 C:\Users\virginiaalcantara\Aplicações\ats\public\index.php(92): App\Matching\Controllers\MatchingController->matchCandidatesToVaga('1')
+#1 {main}
+  thrown in C:\Users\virginiaalcantara\Aplicações\ats\src\Matching\Controllers\MatchingController.php on line 23
+[24-Sep-2024 19:40:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method App\Matching\Models\CandidateModel::getAllCandidates() in C:\Users\virginiaalcantara\Aplicações\ats\src\Matching\Controllers\MatchingController.php:23
+Stack trace:
+#0 C:\Users\virginiaalcantara\Aplicações\ats\public\index.php(92): App\Matching\Controllers\MatchingController->matchCandidatesToVaga('1')
+#1 {main}
+  thrown in C:\Users\virginiaalcantara\Aplicações\ats\src\Matching\Controllers\MatchingController.php on line 23
+[24-Sep-2024 19:46:19 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ats_db.match_history' doesn't exist in C:\Users\virginiaalcantara\Aplicações\ats\src\Matching\Models\MatchingHistoryModel.php:13
+Stack trace:
+#0 C:\Users\virginiaalcantara\Aplicações\ats\src\Matching\Models\MatchingHistoryModel.php(13): PDO->prepare('\r\n            I...')
+#1 C:\Users\virginiaalcantara\Aplicações\ats\src\Matching\Controllers\MatchingController.php(33): App\Matching\Models\MatchingHistoryModel->saveMatch('123', '1')
+#2 C:\Users\virginiaalcantara\Aplicações\ats\public\index.php(41): App\Matching\Controllers\MatchingController->associateCandidateToVaga('123', '1')
+#3 {main}
+  thrown in C:\Users\virginiaalcantara\Aplicações\ats\src\Matching\Models\MatchingHistoryModel.php on line 13
+[24-Sep-2024 19:47:13 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`ats_db`.`match_history`, CONSTRAINT `match_history_ibfk_1` FOREIGN KEY (`id_candidato`) REFERENCES `candidatos` (`id`) ON DELETE CASCADE) in C:\Users\virginiaalcantara\Aplicações\ats\src\Matching\Models\MatchingHistoryModel.php:16
+Stack trace:
+#0 C:\Users\virginiaalcantara\Aplicações\ats\src\Matching\Models\MatchingHistoryModel.php(16): PDOStatement->execute(Array)
+#1 C:\Users\virginiaalcantara\Aplicações\ats\src\Matching\Controllers\MatchingController.php(33): App\Matching\Models\MatchingHistoryModel->saveMatch('123', '1')
+#2 C:\Users\virginiaalcantara\Aplicações\ats\public\index.php(41): App\Matching\Controllers\MatchingController->associateCandidateToVaga('123', '1')
+#3 {main}
+  thrown in C:\Users\virginiaalcantara\Aplicações\ats\src\Matching\Models\MatchingHistoryModel.php on line 16
+[24-Sep-2024 20:05:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method App\Matching\Controllers\MatchingController::getMatchHistory() in C:\Users\virginiaalcantara\Aplicações\ats\public\index.php:45
+Stack trace:
+#0 {main}
+  thrown in C:\Users\virginiaalcantara\Aplicações\ats\public\index.php on line 45
+[24-Sep-2024 20:05:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method App\Matching\Controllers\MatchingController::deleteMatchHistory() in C:\Users\virginiaalcantara\Aplicações\ats\public\index.php:48
+Stack trace:
+#0 {main}
+  thrown in C:\Users\virginiaalcantara\Aplicações\ats\public\index.php on line 48
+[24-Sep-2024 20:07:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method App\Matching\Controllers\MatchingController::getMatchHistory() in C:\Users\virginiaalcantara\Aplicações\ats\public\index.php:45
+Stack trace:
+#0 {main}
+  thrown in C:\Users\virginiaalcantara\Aplicações\ats\public\index.php on line 45
+[24-Sep-2024 20:08:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method App\Matching\Controllers\MatchingController::deleteMatchHistory() in C:\Users\virginiaalcantara\Aplicações\ats\public\index.php:48
+Stack trace:
+#0 {main}
+  thrown in C:\Users\virginiaalcantara\Aplicações\ats\public\index.php on line 48
+[25-Sep-2024 12:28:13 UTC] PHP Parse error:  Unclosed '{' on line 126 in C:\Users\virginiaalcantara\Aplicações\ats\public\index.php on line 128
+[25-Sep-2024 13:32:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method App\Matching\Controllers\CandidateSearchController::buscarCandidatos() in C:\Users\virginiaalcantara\Aplicações\ats\public\index.php:110
+Stack trace:
+#0 {main}
+  thrown in C:\Users\virginiaalcantara\Aplicações\ats\public\index.php on line 110
+[25-Sep-2024 13:40:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method App\Matching\Controllers\MatchingController::buscarMatchingParaVaga() in C:\Users\virginiaalcantara\Aplicações\ats\public\index.php:153
+Stack trace:
+#0 {main}
+  thrown in C:\Users\virginiaalcantara\Aplicações\ats\public\index.php on line 153
+[25-Sep-2024 17:09:38 UTC] PHP Fatal error:  Uncaught Error: Class "App\Controllers\CandidateController" not found in C:\Users\virginiaalcantara\Aplicações\ats\public\index.php:23
+Stack trace:
+#0 {main}
+  thrown in C:\Users\virginiaalcantara\Aplicações\ats\public\index.php on line 23
+[25-Sep-2024 17:19:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method App\Matching\Models\CandidateModel::createCandidate() in C:\Users\virginiaalcantara\Aplicações\ats\src\Matching\Controllers\CandidateSearchController.php:28
+Stack trace:
+#0 C:\Users\virginiaalcantara\Aplicações\ats\public\index.php(33): App\Matching\Controllers\CandidateSearchController->createCandidate(Array)
+#1 {main}
+  thrown in C:\Users\virginiaalcantara\Aplicações\ats\src\Matching\Controllers\CandidateSearchController.php on line 28
+[25-Sep-2024 17:21:45 UTC] PHP Warning:  Undefined property: App\Matching\Models\CandidateModel::$pdo in C:\Users\virginiaalcantara\Aplicações\ats\src\Matching\Models\CandidateModel.php on line 30
+[25-Sep-2024 17:21:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\Users\virginiaalcantara\Aplicações\ats\src\Matching\Models\CandidateModel.php:30
+Stack trace:
+#0 C:\Users\virginiaalcantara\Aplicações\ats\src\Matching\Controllers\CandidateSearchController.php(28): App\Matching\Models\CandidateModel->createCandidate(Array)
+#1 C:\Users\virginiaalcantara\Aplicações\ats\public\index.php(33): App\Matching\Controllers\CandidateSearchController->createCandidate(Array)
+#2 {main}
+  thrown in C:\Users\virginiaalcantara\Aplicações\ats\src\Matching\Models\CandidateModel.php on line 30
+[25-Sep-2024 17:26:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method App\Matching\Models\CandidateModel::getCandidateById() in C:\Users\virginiaalcantara\Aplicações\ats\src\Matching\Controllers\CandidateSearchController.php:38
+Stack trace:
+#0 C:\Users\virginiaalcantara\Aplicações\ats\public\index.php(43): App\Matching\Controllers\CandidateSearchController->getCandidateById('1')
+#1 {main}
+  thrown in C:\Users\virginiaalcantara\Aplicações\ats\src\Matching\Controllers\CandidateSearchController.php on line 38
+[25-Sep-2024 18:59:03 UTC] PHP Fatal error:  Uncaught Error: Class "App\IntegracaoSolides\Controllers\SolidesController" not found in C:\Users\virginiaalcantara\Aplicações\ats\public\index.php:20
+Stack trace:
+#0 {main}
+  thrown in C:\Users\virginiaalcantara\Aplicações\ats\public\index.php on line 20
+[25-Sep-2024 18:59:55 UTC] PHP Fatal error:  Uncaught Error: Class "App\IntegracaoSolides\Controllers\SolidesController" not found in C:\Users\virginiaalcantara\Aplicações\ats\public\index.php:20
+Stack trace:
+#0 {main}
+  thrown in C:\Users\virginiaalcantara\Aplicações\ats\public\index.php on line 20
+[25-Sep-2024 19:00:57 UTC] PHP Fatal error:  Uncaught Error: Class "App\Matching\Models\CandidateModel" not found in C:\Users\virginiaalcantara\Aplicações\ats\src\Matching\Controllers\CandidateSearchController.php:10
+Stack trace:
+#0 C:\Users\virginiaalcantara\Aplicações\ats\public\index.php(22): App\Matching\Controllers\CandidateSearchController->__construct(Object(PDO))
+#1 {main}
+  thrown in C:\Users\virginiaalcantara\Aplicações\ats\src\Matching\Controllers\CandidateSearchController.php on line 10
+[25-Sep-2024 19:01:50 UTC] PHP Fatal error:  Uncaught Error: Class "App\Matching\Models\CandidateModel" not found in C:\Users\virginiaalcantara\Aplicações\ats\src\Matching\Controllers\MatchingController.php:15
+Stack trace:
+#0 C:\Users\virginiaalcantara\Aplicações\ats\public\index.php(23): App\Matching\Controllers\MatchingController->__construct(Object(PDO))
+#1 {main}
+  thrown in C:\Users\virginiaalcantara\Aplicações\ats\src\Matching\Controllers\MatchingController.php on line 15
+[25-Sep-2024 19:02:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method App\Matching\Controllers\CandidateSearchController::createCandidate() in C:\Users\virginiaalcantara\Aplicações\ats\public\index.php:82
+Stack trace:
+#0 {main}
+  thrown in C:\Users\virginiaalcantara\Aplicações\ats\public\index.php on line 82
+[25-Sep-2024 19:20:52 UTC] PHP Fatal error:  Uncaught Error: Class "App\Armazenamento\Controllers\CandidateController" not found in C:\Users\virginiaalcantara\Aplicações\ats\public\index.php:23
+Stack trace:
+#0 {main}
+  thrown in C:\Users\virginiaalcantara\Aplicações\ats\public\index.php on line 23
+[26-Sep-2024 12:10:08 UTC] PHP Fatal error:  Uncaught Error: Class "App\Armazenamento\Controllers\CandidateController" not found in C:\Users\virginiaalcantara\Aplicações\ats\public\index.php:23
+Stack trace:
+#0 {main}
+  thrown in C:\Users\virginiaalcantara\Aplicações\ats\public\index.php on line 23
+[26-Sep-2024 12:12:30 UTC] PHP Fatal error:  Uncaught Error: Class "Armazenamento\Models\CandidateModel" not found in C:\Users\virginiaalcantara\Aplicações\ats\src\Armazenamento\Controllers\CandidateController.php:10
+Stack trace:
+#0 C:\Users\virginiaalcantara\Aplicações\ats\public\index.php(23): App\Armazenamento\Controllers\CandidateController->__construct(Object(PDO))
+#1 {main}
+  thrown in C:\Users\virginiaalcantara\Aplicações\ats\src\Armazenamento\Controllers\CandidateController.php on line 10
